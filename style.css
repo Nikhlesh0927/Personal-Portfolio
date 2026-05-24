@@ -461,6 +461,11 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .certificate .certificate-content .card:hover{
     background-color: white;
@@ -521,6 +526,11 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .certificate .certificate-contentt .card:hover{
     background-color: white;
@@ -748,6 +758,17 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .certificate .title{
+        padding-bottom: 40px;
+        margin-bottom: 50px;
+    }
+    .certificate .certificate-content .card,
+    .certificate .certificate-contentt .card{
+        width: calc(33% - 20px);
+        margin-bottom: 20px;
+        padding: 30px 12px;
+        min-height: 280px;
+    }
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
@@ -770,6 +791,20 @@ footer span a:hover{
     }
     .certificate .serv-content .card{
         width: 100%;
+    }
+    .certificate .title{
+        padding-bottom: 50px;
+        margin-bottom: 40px;
+    }
+    .certificate .certificate-content .card,
+    .certificate .certificate-contentt .card{
+        width: calc(33% - 15px);
+        padding: 20px 8px;
+        min-height: 250px;
+    }
+    .certificate .certificate-content .card .text,
+    .certificate .certificate-contentt .card .text{
+        font-size: 18px;
     }
 }
 
@@ -801,5 +836,19 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .certificate .title{
+        padding-bottom: 55px;
+        margin-bottom: 35px;
+    }
+    .certificate .certificate-content .card,
+    .certificate .certificate-contentt .card{
+        width: calc(33% - 10px);
+        padding: 15px 6px;
+        min-height: 220px;
+    }
+    .certificate .certificate-content .card .text,
+    .certificate .certificate-contentt .card .text{
+        font-size: 14px;
     }
 }
