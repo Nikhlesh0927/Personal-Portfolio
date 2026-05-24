@@ -417,20 +417,28 @@ section .title::after{
     background: rgb(40,167,69);
 }
 .skills-content .right .java::before{
+    width: 92%;
+}
+.skills-content .right .react::before{
     width: 90%;
 }
 .skills-content .right .html::before{
     width: 90%;
 }
-.skills-content .right .css::before{
-    width: 85%;
-}
-.skills-content .right .py::before{
-    width: 80%;
+.skills-content .right .typescript::before{
+    width: 88%;
 }
 .skills-content .right .sql::before{
     width: 88%;
 }
+.skills-content .right .python::before{
+    width: 85%;
+}
+.skills-content .right .ai::before{
+    width: 87%;
+}
+
+
 
 /* 5.Certificate section */
 .certificate{
